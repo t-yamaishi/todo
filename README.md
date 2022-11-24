@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* 開発言語
+ruby 3.0.1
+rails 6.1.7
+* 就業タームの技術
+device
+AWS EC2
+* カリキュラム外の技術
+ransack
+TwitterAPI
+* 実行手順
+```
+$ git clone git@github.com:t-yamaishi/to_do_app.git
+$ cd to_do_app
+$ bundle install
+$ rails db:create && $ rails db:migrate
+$ rails s
+```
+* カタログ設計
+https://docs.google.com/spreadsheets/d/1tpEOwjpxSYQCAyuYDQZVbm8VAGIvxABOrtc9At4D_lw/edit#gid=0
 
-* Ruby version
+* テーブル定義書
+https://docs.google.com/spreadsheets/d/1Nbk9_XQRBg8cxGMwY_2jTir3XC06v3QZN1_iNtoYAr0/edit?pli=1#gid=0
+* ワイヤーフレームワーク
+https://miro.com/app/board/uXjVPBSoMOc=/
+* ER図
+<img width="931" alt="スクリーンショット 2022-11-25 0 26 30" src="https://user-images.githubusercontent.com/97649701/203822699-43449bcb-2b4a-4fa4-b6ec-2875cb605383.png">
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 画面遷移図
+<img width="606" alt="スクリーンショット 2022-11-25 0 43 16" src="https://user-images.githubusercontent.com/97649701/203823042-04089e85-50b0-4e36-ab0a-a365dfa7c08b.png">
