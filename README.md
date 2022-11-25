@@ -24,7 +24,7 @@ https://docs.google.com/spreadsheets/d/1cX7DUhu9WbYw7zI-S3J0ci6HaV9CQ8aYNM37ZBZu
 * ワイヤーフレームワーク
 https://miro.com/app/board/uXjVPBSoMOc=/
 * ER図
-<img width="931" alt="スクリーンショット 2022-11-25 0 26 30" src="https://user-images.githubusercontent.com/97649701/203822699-43449bcb-2b4a-4fa4-b6ec-2875cb605383.png">
+<img width="887" alt="スクリーンショット 2022-11-25 18 23 04" src="https://user-images.githubusercontent.com/97649701/203946104-56d0bedb-284f-4ff6-b767-3d94542bc244.png">
 
 * 画面遷移図
 <img width="606" alt="スクリーンショット 2022-11-25 0 43 16" src="https://user-images.githubusercontent.com/97649701/203823042-04089e85-50b0-4e36-ab0a-a365dfa7c08b.png">
