@@ -18,11 +18,9 @@ $ bundle install
 $ rails db:create && $ rails db:migrate
 $ rails s
 ```
-* カタログ設計
-https://docs.google.com/spreadsheets/d/1tpEOwjpxSYQCAyuYDQZVbm8VAGIvxABOrtc9At4D_lw/edit#gid=0
+* カタログ設計, テーブル定義書
+https://docs.google.com/spreadsheets/d/1cX7DUhu9WbYw7zI-S3J0ci6HaV9CQ8aYNM37ZBZuWnE/edit#gid=1775028168
 
-* テーブル定義書
-https://docs.google.com/spreadsheets/d/1Nbk9_XQRBg8cxGMwY_2jTir3XC06v3QZN1_iNtoYAr0/edit?pli=1#gid=0
 * ワイヤーフレームワーク
 https://miro.com/app/board/uXjVPBSoMOc=/
 * ER図
