@@ -5,9 +5,12 @@ class Post < ApplicationRecord
 
   def self.deadline_check
     Post.all.each do |post|
-      if post.deadline < Time.now #|| post.status = 0
+      now = Time.now
+      dead = post.deadline
+      if (now.strftime("%Y-%m-%d %H:%M")) == (dead.strftime("%Y-%m-%d %H:%M")) #|| post.status = 0
         ContactMailer.contact_mail(post).deliver
       end
     end
   end
+
 end

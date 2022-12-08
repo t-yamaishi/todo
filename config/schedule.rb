@@ -19,8 +19,30 @@
 
 # Learn more: http://github.com/javan/whenever
 
-env :PATH, ENV['PATH']
+
+
+
+
+# env :PATH, ENV['PATH']
+# set :output, './log/cron.log'
+
+# set :output, "#{Rails.root}/log/cron.log"
+# #railsアプリフォルダ内の./log/cron.logにログが出力されるようにする記述
+# require File.expand_path(File.dirname(__FILE__) + '/environment')
+# set :path_env, ENV['PATH']
+# rails_env = ENV['RAILS_ENV'] || :development
+# set :environment, rails_env
+# #railsアプリ内の実行環境を変数に代入している
+# job_type :runner, "cd :path && PATH=':path_env' bin/rails runner -e :environment ':task' :output"
+
 set :output, './log/cron.log'
+require File.expand_path(File.dirname(__FILE__) + '/environment')
+set :path_env, ENV['PATH']
+rails_env = ENV['RAILS_ENV'] || :development
+set :environment, rails_env
+job_type :runner, "cd :path && PATH=':path_env' bin/rails runner -e :environment ':task' :output"
+
+
 every 1.minutes do
   runner "Post.deadline_check"
 end
